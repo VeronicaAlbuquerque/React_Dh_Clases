@@ -1,0 +1,10 @@
+JSX
+
+JSX son las siglas de JavaScript XML, y es una extensión de la sintaxis de JavaScript
+es muy conveniente usar esta sintaxis porque se puede escribir HTML directamente dentro de código JavaScript.
+
+VirtualDom
+Virtual DOM: el Virtual DOM es una interpretación liviana del DOM. La biblioteca de JavaScript, React,
+ permite la comparación del Virtual DOM con el DOM, y hace modificaciones solo en los elementos que hayan cambiado.
+ Este proceso requiere menor procesamiento ya que no precisa volver a renderizar todo el DOM, 
+ sino que solamente actualiza los elementos que hayan sufrido cambios.

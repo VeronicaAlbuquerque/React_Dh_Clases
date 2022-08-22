@@ -1,0 +1,39 @@
+Porque react?
+
+*continuo desarrollo
+*enorme poblacion de desarrolladores lo usan
+*comprende un rendimiento solido y flexible para programar casi todo en cuanto a interfaz.
+
+*html + css + js ========> react
+
+LIBRERIAS CDN LINKS
+REACT
+<script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+REACTDOM
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+            
+
+
+react
+createElement(tipo de elemento de html, propiedades del elemento, contenido dentro del elemento)
+Ej.: 
+createElement('div', {title: titulo}, null),
+
+reactDom: libreria dentro de la biblioteca de react
+metodo mas utilizado es reactDom va a ser render(), este metodo nos va a servir para renderizar los elementos que vamos a introducir dentro de un elemtno del html
+
+dentro de html:
+
+<div id= "root></div>
+
+dentro del script :
+
+ReactDom.render(
+    React.createElement('h1',null, "Hola Mundo"),
+    document.getElementById("root")
+);
+
+createElement( 3 argumentos)
+.render(2 argumentos)
+
+*cuando usamos mapeo si o si tiene que haber {Key:1}
